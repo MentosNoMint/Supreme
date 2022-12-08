@@ -1,0 +1,75 @@
+.wrapper{
+    background-image: url(/img/background.png);
+    width: 100%;
+    max-height: 100vh;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Space Mono', monospace;
+    box-sizing: border-box;
+}
+.logo {
+    top: 180px;
+    margin-top: 180px;
+    width: 287px;
+    height: 82px;
+    display: flex;
+    justify-content: center;
+    
+}
+.Text-des {
+    position: absolute;
+    color: white;
+    margin-top: 300px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    font-feature-settings: 'calt' off, 'liga' off;
+}
+.link-nav  {
+    position: absolute;
+    width: 307px;
+    height: 315px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-top: 421px;
+    display: table;
+    white-space: pre-line; 
+    word-wrap: break-word;  
+    text-decoration: none;
+}
+.social {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    margin-top: 814px;
+    display: flex;
+    align-items: center;
+    border: 0px solid;
+    flex-direction: row-reverse;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.insta {
+    padding: 30px;
+}
+body .link-nav .navig a:hover{
+    background-color: #FF0000;
+    transition: all 0.3s ease;
+  }
+  li {
+    list-style-type:none;
+}
